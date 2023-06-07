@@ -1,3 +1,5 @@
+import './_About.css'
+
 const About = ({content}) => {
     return (
         <div className="about-container">
@@ -17,14 +19,14 @@ const About = ({content}) => {
 
 const AboutList = ({content}) => {
     return (
-        <div>
+        <div className='about-list'>
             {content.map((item, index) => {
                 return (
                     <AboutItem item={item} key={index} />
                 )
             })}
             <div className="about-item">
-                <div className="about-input">
+                <div className="about-item-input">
                     <span>&nbsp;</span>
                 </div>
             </div>

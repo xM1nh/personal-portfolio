@@ -1,11 +1,18 @@
 import Typewriter from "./Typewriter";
+import './_Introduction.css'
 
 const Introduction = () => {
     return (
         <div className="introduction">
-            <Typewriter text="Minh Le" />
+            <Typewriter className='intro-title' content="Minh Le" />
             <div className="description">
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                <p>
+                I am an aspiring software engineer with an entrpreneuial drive. 
+                I am seeking to join a mission-driven team that is undertaking challenging, change-making problems.
+                </p>
+                <p>
+                Check out my projects below
+                </p>
             </div>
         </div>
     )

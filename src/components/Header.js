@@ -4,8 +4,8 @@ const Header = () => {
     return (
         <header>
             <nav className="navBar">
-                <a>Projects</a>
-                <a>Contact</a>
+                <a className='nav-link'>Projects</a>
+                <a className='nav-link'>Contact</a>
             </nav>
         </header>
     )

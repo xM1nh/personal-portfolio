@@ -1,0 +1,28 @@
+.intro-title {
+    font-size: 4.5em;
+}
+
+.intro-title::before {
+    content: "> ";
+}
+
+span {
+    background-color: #000;
+    animation: caret 1s  steps(1) infinite;
+}
+
+@keyframes caret {
+    50% {
+        background-color: transparent;
+    }
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.description {
+    font-size: 1.5em;
+}
