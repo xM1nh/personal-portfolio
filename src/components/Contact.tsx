@@ -9,7 +9,7 @@ const Contact = forwardRef<HTMLDivElement>((_, ref) => {
                     <a href='mailto:minhnle311@gmail.com' rel="noopener" target="_blank">minhnle311@gmail.com</a>
                 </span>
                 <span>
-                    <a href='' rel="noopener" target="_blank">LinkedIn</a>
+                    <a href='https://www.linkedin.com/in/minh-le-84109b296/' rel="noopener" target="_blank">LinkedIn</a>
                 </span>
                 <span>
                     <a href='https://github.com/xM1nh' rel="noopener" target="_blank">GitHub</a>

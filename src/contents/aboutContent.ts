@@ -6,7 +6,7 @@ const aboutContent = [
   {
     inputVal: "Minh.contactInfo",
     returnVal:
-      '["<a href="mailto:minhnle311@gmail.com">minhnle311@gmail.com</a>", "<a rel="noopener" href="">LinkedIn</a>", "<a rel="noopener" href="https://github.com/xM1nh">github</a>"]',
+      '["<a href="mailto:minhnle311@gmail.com">minhnle311@gmail.com</a>", "<a rel="noopener" href="https://www.linkedin.com/in/minh-le-84109b296/">LinkedIn</a>", "<a rel="noopener" href="https://github.com/xM1nh">github</a>"]',
   },
   {
     inputVal: "Minh.resume",
