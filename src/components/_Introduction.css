@@ -1,28 +1,44 @@
 .intro-title {
-    font-size: 4.5em;
+  font-family: Monaco, Consolas, Lucida Console, monospace;
+  font-size: 4.5em;
+  color: #db7093;
 }
 
 .intro-title::before {
-    content: "> ";
+  content: "> ";
 }
 
 span {
-    background-color: #000;
-    animation: caret 1s  steps(1) infinite;
+  background-color: #db7093;
+  animation: caret 1s steps(1) infinite;
 }
 
 @keyframes caret {
-    50% {
-        background-color: transparent;
-    }
+  50% {
+    background-color: transparent;
+  }
 }
 
 .introduction {
-    display: flex;
-    flex-direction: column;
-    gap: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  margin-top: 20vh;
 }
 
 .description {
-    font-size: 1.5em;
+  font-weight: 200;
+  font-size: 1.3em;
+  line-height: 40px;
+  margin: 80px 0;
+}
+
+.description a {
+  color: #db7093;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.description a:hover {
+  color: rgba(219, 112, 147, 0.7);
 }

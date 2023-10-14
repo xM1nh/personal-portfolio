@@ -1,6 +1,15 @@
 import './_About.css'
 
-const About = ({content}) => {
+interface AboutItem {
+    inputVal: string,
+    returnVal: string
+}
+
+interface AboutList {
+    content: AboutItem[]
+}
+
+const About = ({content}: AboutList) => {
     return (
         <div className="about-container">
             <div className="terminal">
@@ -17,12 +26,12 @@ const About = ({content}) => {
     )
 }
 
-const AboutList = ({content}) => {
+const AboutList = ({content}: AboutList) => {
     return (
         <div className='about-list'>
-            {content.map((item, index) => {
+            {content.map((e, index) => {
                 return (
-                    <AboutItem item={item} key={index} />
+                    <AboutItem inputVal={e.inputVal} returnVal={e.returnVal} key={`about${index}`} />
                 )
             })}
             <div className="about-item">
@@ -34,13 +43,13 @@ const AboutList = ({content}) => {
     )
 }
 
-const AboutItem = ({item}) => {
+const AboutItem = ({inputVal, returnVal}: AboutItem) => {
     return (
         <div className="about-item">
-            <div className="about-item-input">{item.input}</div>
+            <div className="about-item-input">{inputVal}</div>
             <div 
                 className="about-item-return"
-                dangerouslySetInnerHTML={{__html: item.return}}
+                dangerouslySetInnerHTML={{__html: returnVal}}
             />
         </div>
     )

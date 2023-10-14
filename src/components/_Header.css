@@ -1,30 +1,36 @@
 nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 100px;
+  font-size: 1.2em;
+  margin-top: 40px;
 }
 
 .nav-link {
-    font-size: 20px;
-    display: inline-block;
-    position: relative;
+  font-size: 1.2em;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
 }
 
-.nav-link:before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 5px;
-    top: 30px;
-    background-color: #c848b9;
-    transform: scaleX(0);
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-in-out;
+.nav-link::after {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+  width: 0;
+  height: 8px;
+  background-color: #db7093;
+  content: "";
+  transition: width 0.15s;
 }
 
-.nav-link:hover::before {
-    transform: scaleX(1);
-    transform-origin: bottom left;
+.nav-link:hover {
+  color: #db7093;
+}
+
+.nav-link:hover::after {
+  width: 100%;
 }

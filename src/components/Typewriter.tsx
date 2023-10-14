@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react"
 
-const Typewriter = ({className, content}) => {
+const Typewriter = ({className, content}: {className: string, content: string}) => {
     const [text, setText] = useState('')
 
-    const writeText = (text) => {
+    const writeText = (text: string) => {
         let str = ''
         let typeSpeed = 0
 
@@ -18,7 +18,7 @@ const Typewriter = ({className, content}) => {
 
     useEffect(() => {
         writeText(content)
-    }, [])
+    }, [content])
 
     return (
         <div className={className}>

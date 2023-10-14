@@ -1,0 +1,48 @@
+.contact-links {
+  font-size: 1.2em;
+  text-align: center;
+  margin-top: 100px;
+  padding-bottom: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-links span {
+  animation: none;
+  background-color: unset;
+}
+
+.contact-links span::after {
+  content: "||";
+  margin: 0 30px;
+}
+
+.contact-links span:nth-child(3)::after {
+  content: "";
+  margin: 0 30px;
+}
+
+.contact-links a {
+  position: relative;
+  text-decoration: none;
+}
+
+.contact-links a::after {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+  width: 0;
+  height: 8px;
+  background-color: #db7093;
+  content: "";
+  transition: width 0.15s;
+}
+
+.contact-links a:hover {
+    color: #db7093;
+}
+
+.contact-links a:hover::after {
+    width: 100%;
+}

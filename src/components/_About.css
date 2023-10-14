@@ -45,7 +45,8 @@
 }
 
 .about-item-input {
-    color: #f5f5f5;
+    color: rgba(246, 249, 252, 0.9);
+    font-family: Monaco, Consolas, Lucida Console, monospace;
     font-size: 1.5em;
 }
 
@@ -54,14 +55,14 @@
 }
 
 .about-item-input > span {
-    background-color: #f5f5f5;
+    background-color: #f7f7f7;
 }
 
 .about-item-return {
-    color: #e6b176;
+    color: #DB7093;
     font-size: 1.2em;
 }
 
 .about-item-return > a {
-    color: #c848b9;
+    color: #35feff;
 }
