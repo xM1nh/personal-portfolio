@@ -19,16 +19,12 @@ body {
   color: #414a4c
 }
 
-.idek {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
 .main-container {
   max-width: 1000px;
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
+  padding: 0 40px;
 }
 
 a {
