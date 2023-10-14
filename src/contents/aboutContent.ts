@@ -10,7 +10,7 @@ const aboutContent = [
   },
   {
     inputVal: "Minh.resume",
-    returnVal: '"<a rel="noopener" href="/" target="_blank">minhle.pdf</a>"',
+    returnVal: '"<a rel="noopener" href="/minhle.pdf" target="_blank">minhle.pdf</a>"',
   },
   {
     inputVal: "Minh.interests",
