@@ -19,7 +19,6 @@
 
 .contact-links span:nth-child(3)::after {
   content: "";
-  margin: 0 30px;
 }
 
 .contact-links a {
@@ -45,4 +44,21 @@
 
 .contact-links a:hover::after {
     width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .contact-links {
+    flex-direction: column;
+    margin-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .contact-links span {
+    margin: 20px 0;
+  }
+
+  .contact-links span::after {
+    content: '';
+    margin: 0;
+  }
 }
