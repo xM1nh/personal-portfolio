@@ -48,7 +48,7 @@ const Project = ({ title, description, links, skills, image }: Project) => {
             })}
           </div>
           <div className="project-links">
-            <a className="project-link" href={links.preview} rel="noopener" target="_blank">Live Preview</a>
+            {links.preview ? <a className="project-link" href={links.preview} rel="noopener" target="_blank">Live Preview</a> : <></>}
             <a className="project-link" href={links.github} rel="noopener" target="_blank">View Source</a>
           </div>
         </div>
