@@ -1,68 +1,81 @@
+.about-container {
+  margin-top: 20vh;
+  margin: 0;
+}
+
 .terminal {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .terminal-header {
-    background-color: #454545;
-    height: 30px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 10px;
-    padding-left: 15px;
+  background-color: #454545;
+  height: 28px;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .header-button {
-    border-radius: 50%;
-    width: 15px;
-    height: 15px;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  margin-left: 9px;
 }
 
 .header-button.red {
-    background-color: red;
+  background-color: red;
 }
 
 .header-button.yellow {
-    background-color: yellow;
+  background-color: yellow;
 }
 
 .header-button.green {
-    background-color: green;
+  background-color: green;
 }
 
 .terminal-window {
-    background-color: #2a2a2a;
+  background-color: #2a2a2a;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 50px 100px rgba(50, 50, 93, 0.15),
+    0 15px 35px rgba(50, 50, 93, 0.2), 0 5px 15px rgba(0, 0, 0, 0.12);
 }
 
 .about-list {
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
-    gap: 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 30px;
+}
+
+.about-item {
+  margin-bottom: 25px;
+  margin-left: 35px;
+  margin-right: 35px;
+  line-height: 24px;
 }
 
 .about-item-input {
-    color: rgba(246, 249, 252, 0.9);
-    font-family: Monaco, Consolas, Lucida Console, monospace;
-    font-size: 1.5em;
+  color: rgba(246, 249, 252, 0.9);
+  font-family: Monaco, Consolas, Lucida Console, monospace;
+  font-size: 1.5em;
 }
 
 .about-item-input::before {
-    content: "> ";
+  content: "> ";
 }
 
 .about-item-input > span {
-    background-color: #f7f7f7;
+  background-color: #f7f7f7;
 }
 
 .about-item-return {
-    color: #DB7093;
-    font-size: 1.2em;
+  color: #db7093;
+  font-size: 1.2em;
 }
 
 .about-item-return > a {
-    color: #35feff;
+  color: #35feff;
 }

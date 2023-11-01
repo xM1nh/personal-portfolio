@@ -96,3 +96,19 @@
   font-size: 0.85em;
   color: grey;
 }
+
+@media screen and (max-width: 1000px) {
+  .project-item {
+    margin-bottom: 40px;
+  }
+
+  .project-image, .project-background {
+    display: none;
+  }
+
+  .project-content {
+    width: 100%;
+    padding: 35px;
+    box-sizing: border-box;
+  }
+}

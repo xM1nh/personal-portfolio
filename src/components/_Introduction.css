@@ -42,3 +42,20 @@ span {
 .description a:hover {
   color: rgba(219, 112, 147, 0.7);
 }
+
+@media screen and (max-width: 1000px) {
+  .introduction {
+    margin-top: 15vh;
+  }
+
+  .intro-title {
+    font-size: 3em;
+  }
+
+  .description {
+    font-size: 1.2em;
+    line-height: 30px;
+    max-width: 100%;
+    margin: 50px 0;
+  }
+}
