@@ -7,7 +7,7 @@ export default [
     {
         title: 'Chexx',
         description: "(WIP) A full stack online multiplayer Gliński's hexagonal chess variant website built with React and .NET Core. Features included: ELO System, Matchmaking, Leaderboard",
-        skills: ['Typescript, C#, React, .NET Core, Postgreql, EF Core, SignalR, Redis'],
+        skills: ['Typescript', 'C#', 'React', '.NET Core', 'Postgreql', 'EF Core', 'SignalR', 'Redis'],
         image: Chexx,
         links: {
             github: 'https://github.com/xM1nh/hex-chess',
