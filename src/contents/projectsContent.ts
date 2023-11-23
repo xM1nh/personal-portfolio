@@ -6,17 +6,17 @@ import Chexx from '../assets/images/Chexx.jpg'
 export default [
     {
         title: 'Chexx',
-        description: "(WIP) A full stack online multiplayer Gliński's hexagonal chess variant website built with React and .NET Core. Features included: ELO System, Matchmaking, Leaderboard",
+        description: "A full stack online multiplayer Gliński's hexagonal chess variant website built with React and .NET Core. Features included: ELO System, Matchmaking, Leaderboard",
         skills: ['Typescript', 'C#', 'React', '.NET Core', 'Postgreql', 'EF Core', 'SignalR', 'Redis'],
         image: Chexx,
         links: {
-            github: 'https://github.com/xM1nh/hex-chess',
+            github: 'https://github.com/xM1nh/Chexx-Backend',
             preview: '',
           },
     },
     {
         title: 'Ploop',
-        description: '(WIP) A dynamic and interactive social art platform using a modern tech stack. Implemented a microservices architecture, cloud storage with Cloudflare, integrating RabbitMQ for robust communication between services, and GraphQL for efficient data aggregation. Designed and built features for user-generated time-lapse video creation, real-time social interactions (likes, shares, comments), and a unique remixing functionality akin to popular social media platforms.',
+        description: 'A dynamic and interactive social art platform using a modern tech stack. Implemented a microservices architecture, cloud storage with Cloudflare, integrating RabbitMQ for robust communication between services, and GraphQL for efficient data aggregation. Designed and built features for user-generated time-lapse video creation, real-time social interactions (likes, shares, comments), and a unique remixing functionality akin to popular social media platforms.',
         skills: ['React', 'Express', 'Node.js', 'Postgresql', 'Typescript', 'Redux', 'RabbitMQ', 'Graphql', 'WebSocket'],
         image: Ploop,
         links: {
@@ -40,7 +40,7 @@ export default [
         skills: ['React'],
         image: Portfolio,
         links: {
-            github: 'https://github.com/xM1nh/duckpile',
+            github: 'https://github.com/xM1nh/personal-portfolio',
             preview: '',
           },
     },
