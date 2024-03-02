@@ -2,6 +2,7 @@ import Ploop from "../assets/images/Ploop.png";
 import Duckpile from "../assets/images/Duckpile.jpg";
 import Portfolio from "../assets/images/Portfolio.png";
 import Chexx from "../assets/images/Chexx.jpg";
+import Munch from "../assets/images/Munch.jpg";
 
 export default [
   {
@@ -17,7 +18,7 @@ export default [
       "Postgreql",
       "EF Core",
     ],
-    image: Ploop,
+    image: Munch,
     links: {
       github: "https://github.com/xM1nh/ProjectMunchClient",
       preview: "",
