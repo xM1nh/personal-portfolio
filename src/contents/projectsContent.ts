@@ -18,9 +18,20 @@ export default [
       "Postgreql",
       "EF Core",
     ],
-    image: Munch,
+    image: Chexx,
     links: {
       github: "https://github.com/xM1nh/ProjectMunchClient",
+      preview: "",
+    },
+  },
+  {
+    title: "Project Gaem",
+    description:
+      "A really simple game engine for really over-engineered simple games.",
+    skills: ["C#"],
+    image: Munch,
+    links: {
+      github: "https://github.com/xM1nh/ProjectGaem",
       preview: "",
     },
   },
