@@ -1,7 +1,7 @@
 const aboutContent = [
   {
     inputVal: "Minh.currentLocation",
-    returnVal: '"Westminster, CA"',
+    returnVal: '"Berkeley, CA"',
   },
   {
     inputVal: "Minh.contactInfo",
@@ -14,7 +14,7 @@ const aboutContent = [
   },
   {
     inputVal: "Minh.interests",
-    returnVal: '["chess", "soccer", "philosophy", "gaming"]',
+    returnVal: '["tennis", "piano", "chess", "soccer", "philosophy", "gaming"]',
   },
   {
     inputVal: "Minh.education",
@@ -24,7 +24,7 @@ const aboutContent = [
   {
     inputVal: "Minh.skills",
     returnVal:
-      '["JavaScript", "Typescript", "Python", "React", "Redux", "Node", "SQL", "git"]',
+      '["C#", "JavaScript", "Typescript", "Python", "C++", "SQL", "ASP.NET", "React", "Node"]',
   },
 ];
 
